@@ -1,4 +1,4 @@
-# Simple authentication microservice using Fatify and PassportJS
+# Simple authentication microservice using Fastify and PassportJS
 
 This microservice was created to be using in a dockerized environment
 
