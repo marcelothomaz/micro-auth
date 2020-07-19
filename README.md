@@ -1,6 +1,6 @@
 # Simple authentication microservice using Fastify and PassportJS
 
-This microservice was created to be using in a dockerized environment
+This microservice was created to be used as a standalone application or in a docker container
 
 ## Creating priv/pub keys
 
