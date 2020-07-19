@@ -5,10 +5,11 @@ This microservice was created to be using in a dockerized environment
 ## Creating priv/pub keys
 
 ```bash
-ssh-keygen -t rsa -b 4096 -m PEM -f jwtRS256.key
-# Don't add passphrase
-openssl rsa -in jwtRS256.key -pubout -outform PEM -out jwtRS256.key.pub
+$ ssh-keygen -t rsa -b 4096 -m PEM -f jwtRS256.key
+$ openssl rsa -in jwtRS256.key -pubout -outform PEM -out jwtRS256.key.pub
 ```
+
+If you add a passphrase, you will have to add a `passphrase` key in config.js as aprt of the `private` key, please check https://github.com/fastify/fastify-jwt#fastify-jwt-1.
 
 ## API Routes
 
